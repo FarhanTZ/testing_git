@@ -11,3 +11,6 @@ Route::get('/profile', function () {
 Route::get('/account', function () {
     return view('account');
 });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
